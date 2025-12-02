@@ -1,0 +1,25 @@
+{
+  "name": "parsing-photo-and-download",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js --offset 382000",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.10.1",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "@types/minimist": "^1.2.5",
+    "axios": "^1.13.2",
+    "date-fns": "^4.1.0",
+    "minimist": "^1.2.8"
+  }
+}
