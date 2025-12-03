@@ -1,13 +1,21 @@
 # Get start
 
+## Install
+
 ```bash
 git clone https://github.com/FBernardeschi/Parsing-photographer.ru app-parsing
 cd app-parsing
 npm i
 npm run build
+```
 
+## Runing
+
+```bash
 npm run start
-## or
+```
+
+```bash
 node dist/index.js --offset 382000
-node dist/index.js --offset 38{any 4-digit number}
+node dist/index.js --offset {any 6-digit number}
 ```
